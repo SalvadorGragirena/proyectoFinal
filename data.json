@@ -1,0 +1,87 @@
+{
+    "arrayProductos":[{
+            "nombre":"Ropa 1",
+            "precio":10
+        },
+        {
+            "nombre":"Ropa 2",
+            "precio":10
+        },
+        {
+            "nombre":"Ropa 3",
+            "precio":10
+        },
+        {
+            "nombre":"Ropa 4",
+            "precio":10
+        },
+        {
+            "nombre":"Ropa 5",
+            "precio":10
+        },
+        {
+            "nombre":"Ropa 6",
+            "precio":10
+        },
+        {
+            "nombre":"Ropa 7",
+            "precio":20
+        },
+        {
+            "nombre":"Televisor 1",
+            "precio":20
+        },
+        {
+            "nombre":"Televisor 2",
+            "precio":20
+        },
+        {
+            "nombre":"Televisor 3",
+            "precio":20
+        },
+        {
+            "nombre":"Televisor 4",
+            "precio":20
+        },
+        {
+            "nombre":"Televisor 5",
+            "precio":20
+        },
+        {
+            "nombre":"Televisor 6",
+            "precio":20
+        },
+        {
+            "nombre":"Televisor 7",
+            "precio":20
+        },
+        {
+            "nombre":"Perfume 1",
+            "precio":15
+        },
+        {
+            "nombre":"Perfume 2",
+            "precio":15
+        },
+        {
+            "nombre":"Perfume 3",
+            "precio":15
+        },
+        {
+            "nombre":"Perfume 4",
+            "precio":15
+        },
+        {
+            "nombre":"Perfume 5",
+            "precio":15
+        },
+        {
+            "nombre":"Perfume 6",
+            "precio":15
+        },
+        {
+            "nombre":"Perfume 7",
+            "precio":15
+        }
+    ]
+}
