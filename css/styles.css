@@ -102,6 +102,9 @@ main{
     align-items: center;
 }
 
+.p_producto{
+    margin-left: 10px;
+}
 
 footer{
     background-color: rgb(0, 0, 0);

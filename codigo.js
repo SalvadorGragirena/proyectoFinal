@@ -18,6 +18,9 @@ let entrada1 = document.getElementsByClassName("entrada1");
 let entrada2 = document.getElementsByClassName("entrada2");
 let entrada3 = document.getElementsByClassName("entrada3");
 
+//Para cambio de texo p
+let p_producto = document.getElementsByClassName("p_producto");
+
 let h3_ropa = document.getElementById("totalropa");
 let h3_televisores = document.getElementById("totaltelevisores");
 let h3_perfumes = document.getElementById("totalperfumes");
@@ -53,9 +56,14 @@ fetch('./data.json')
             ropa.push(new producto(0, json.arrayProductos[i].precio, json.arrayProductos[i].nombre));
             televisores.push(new producto(0, json.arrayProductos[i+7].precio, json.arrayProductos[i+7].nombre));
             perfumes.push(new producto(0, json.arrayProductos[i+14].precio, json.arrayProductos[i+14].nombre));
+            
+            p_producto[i].innerText = json.arrayProductos[0].nombre;
+            p_producto[i+7].innerText = json.arrayProductos[i+7].nombre;
+            p_producto[i+14].innerText = json.arrayProductos[i+14].nombre;
         }
     });
     
+     
 
 function suma_R() {
     let aux = 0
@@ -315,7 +323,6 @@ function VerCarrito() {
                     <th>Cantidad</th>
                     <th>Precio</th>
                 </tr>
-                    
             </table>`
     }).then((result) => {
         if (result.isConfirmed) {

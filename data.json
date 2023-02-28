@@ -1,86 +1,86 @@
 {
     "arrayProductos":[{
-            "nombre":"Ropa 1",
+            "nombre":"ROPA 1 VALOR 10",
             "precio":10
         },
         {
-            "nombre":"Ropa 2",
+            "nombre":"ROPA 2 VALOR 10",
             "precio":10
         },
         {
-            "nombre":"Ropa 3",
+            "nombre":"ROPA 3 VALOR 10",
             "precio":10
         },
         {
-            "nombre":"Ropa 4",
+            "nombre":"ROPA 4 VALOR 10",
             "precio":10
         },
         {
-            "nombre":"Ropa 5",
+            "nombre":"ROPA 5 VALOR 10",
             "precio":10
         },
         {
-            "nombre":"Ropa 6",
+            "nombre":"ROPA 6 VALOR 10",
             "precio":10
         },
         {
-            "nombre":"Ropa 7",
+            "nombre":"ROPA 7 VALOR 10",
             "precio":20
         },
         {
-            "nombre":"Televisor 1",
+            "nombre":"TELEVISOR 1 VALOR 20",
             "precio":20
         },
         {
-            "nombre":"Televisor 2",
+            "nombre":"TELEVISOR 2 VALOR 20",
             "precio":20
         },
         {
-            "nombre":"Televisor 3",
+            "nombre":"TELEVISOR 3 VALOR 20",
             "precio":20
         },
         {
-            "nombre":"Televisor 4",
+            "nombre":"TELEVISOR 4 VALOR 20",
             "precio":20
         },
         {
-            "nombre":"Televisor 5",
+            "nombre":"TELEVISOR 5 VALOR 20",
             "precio":20
         },
         {
-            "nombre":"Televisor 6",
+            "nombre":"TELEVISOR 6 VALOR 20",
             "precio":20
         },
         {
-            "nombre":"Televisor 7",
+            "nombre":"TELEVISOR 7 VALOR 20",
             "precio":20
         },
         {
-            "nombre":"Perfume 1",
+            "nombre":"PERFUME 1 VALOR 15",
             "precio":15
         },
         {
-            "nombre":"Perfume 2",
+            "nombre":"PERFUME 2 VALOR 15",
             "precio":15
         },
         {
-            "nombre":"Perfume 3",
+            "nombre":"PERFUME 3 VALOR 15",
             "precio":15
         },
         {
-            "nombre":"Perfume 4",
+            "nombre":"PERFUME 4 VALOR 15",
             "precio":15
         },
         {
-            "nombre":"Perfume 5",
+            "nombre":"PERFUME 5 VALOR 15",
             "precio":15
         },
         {
-            "nombre":"Perfume 6",
+            "nombre":"PERFUME 6 VALOR 15",
             "precio":15
         },
         {
-            "nombre":"Perfume 7",
+            "nombre":"PERFUME 7 VALOR 15",
             "precio":15
         }
     ]
