@@ -323,19 +323,7 @@ function VerCarrito() {
             </table>`
     }).then((result) => {
         if (result.isConfirmed) {
-            if(carro.length > 0){
-                Swal.fire(
-                    'Comprado!',
-                    'Tu compra ha sido exitosa!',
-                    'success'
-                )
-            }
-            else{
-                Swal.fire(
-                    'No hay productos en carrito!',
-                    'Compra no fue efectuada'
-                )
-            }  
+        carro.length > 0 ? Swal.fire('Comprado!','Tu compra ha sido exitosa!','success') : Swal.fire('No hay productos en carrito!','Compra no fue efectuada')
         }
     });
 
