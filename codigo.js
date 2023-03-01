@@ -72,7 +72,6 @@ function suma_R() {
     }
     total_R = aux
     h3_ropa.innerText = 'Total en ropa seria: ' + total_R;
-    console.log(total_R);
 }
 
 function suma_T() {
@@ -82,7 +81,6 @@ function suma_T() {
     }
     total_T = aux
     h3_televisores.innerText = 'Total en televisores seria: ' + total_T;
-    console.log(total_T);
 }
 
 function suma_P() {
@@ -92,7 +90,6 @@ function suma_P() {
     }
     total_P = aux
     h3_perfumes.innerText = 'Total en perfume seria: ' + total_P;
-    console.log(total_P);
 }
 
 function entrada_R() {
