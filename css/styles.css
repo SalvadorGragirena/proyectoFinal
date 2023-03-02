@@ -94,12 +94,21 @@ main{
 
 .swal2-html-container {
     display: flex !important;
-}
-
-.productos_carrito{
-    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+
+#section_2_Carrito{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#section_2_Carrito p{
+    margin-right: 5px;
 }
 
 .p_producto{

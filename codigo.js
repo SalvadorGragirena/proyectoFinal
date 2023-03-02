@@ -290,6 +290,7 @@ btn_RecuperaPerfumes.addEventListener("click", () => Recupera_Input_Perfumes());
 
 function VerCarrito() {
     const carro = [];
+    let AuxTotal = 0;
     for (let i = 0; i < 7; i++) {
         if (ropa[i].cantidad > 0) {
             carro.push(new producto(ropa[i].cantidad, ropa[i].precio, ropa[i].nombre));
@@ -314,13 +315,19 @@ function VerCarrito() {
         cancelButtonColor: '#d33',
         confirmButtonText: 'Sí, cómpralo!',
         html:
-            `<table id="productos_carrito" border=1>
+            `<section>
+            <table id="productos_carrito" border=1>
                 <tr>
                     <th>Producto</th>
                     <th>Cantidad</th>
                     <th>Precio</th>
                 </tr>
-            </table>`
+            </table>
+            </section>
+            <section id="section_2_Carrito"> 
+                <p id="MensajeCarrito"></p>
+                <strong id="TotalCarrito"></strong>
+            </section>`
     }).then((result) => {
         if (result.isConfirmed) {
         carro.length > 0 ? Swal.fire('Comprado!','Tu compra ha sido exitosa!','success') : Swal.fire('No hay productos en carrito!','Compra no fue efectuada')
@@ -328,6 +335,8 @@ function VerCarrito() {
     });
 
     let tablacarrito = document.getElementById('productos_carrito');
+    let TotalCarrito = document.getElementById('TotalCarrito');
+    let MensajeCarrito = document.getElementById('MensajeCarrito');
     let cuerpoTable = document.createElement('tbody');
 
     carro.forEach(p => {
@@ -348,9 +357,11 @@ function VerCarrito() {
             fila.appendChild(td);
 
             cuerpoTable.appendChild(fila)
+            AuxTotal = p.precio + AuxTotal
         }
-
         tablacarrito.appendChild(cuerpoTable);
     })            
+        AuxTotal == 0 ? MensajeCarrito.innerText = 'No tiene productos en carrito' : MensajeCarrito.innerText = 'Precio total en productos: ';
+        TotalCarrito.innerText = AuxTotal + "$";
 }
     btn_Carrito.addEventListener("click", () => VerCarrito());
