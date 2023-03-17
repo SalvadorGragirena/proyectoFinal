@@ -57,7 +57,7 @@ fetch('./data.json')
             televisores.push(new producto(0, json.arrayProductos[i+7].precio, json.arrayProductos[i+7].nombre));
             perfumes.push(new producto(0, json.arrayProductos[i+14].precio, json.arrayProductos[i+14].nombre));
             
-            p_producto[i].innerText = json.arrayProductos[0].nombre;
+            p_producto[i].innerText = json.arrayProductos[i].nombre;
             p_producto[i+7].innerText = json.arrayProductos[i+7].nombre;
             p_producto[i+14].innerText = json.arrayProductos[i+14].nombre;
         }
