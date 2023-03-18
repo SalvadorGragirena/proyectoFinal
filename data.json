@@ -1,87 +1,108 @@
 {
     "arrayProductos":[{
             "nombre":"ROPA 1 VALOR 10",
-            "precio":10
+            "precio":10,
+            "imagen":"./img/ropa1.png"
         },
         {
             "nombre":"ROPA 2 VALOR 10",
-            "precio":10
+            "precio":10,
+            "imagen":"./img/ropa2.png"
         },
         {
             "nombre":"ROPA 3 VALOR 10",
-            "precio":10
+            "precio":10,
+            "imagen":"./img/ropa3.png"
         },
         {
             "nombre":"ROPA 4 VALOR 10",
-            "precio":10
+            "precio":10,
+            "imagen":"./img/ropa4.png"
         },
         {
             "nombre":"ROPA 5 VALOR 10",
-            "precio":10
+            "precio":10,
+            "imagen":"./img/ropa5.png"
         },
         {
             "nombre":"ROPA 6 VALOR 10",
-            "precio":10
+            "precio":10,
+            "imagen":"./img/ropa6.png"
         },
         {
             "nombre":"ROPA 7 VALOR 10",
-            "precio":20
+            "precio":10,
+            "imagen":"./img/ropa7.png"
         },
         {
             "nombre":"TELEVISOR 1 VALOR 20",
-            "precio":20
+            "precio":20,
+            "imagen":"./img/televisor1.png"
         },
         {
             "nombre":"TELEVISOR 2 VALOR 20",
-            "precio":20
+            "precio":20,
+            "imagen":"./img/televisor2.png"
         },
         {
             "nombre":"TELEVISOR 3 VALOR 20",
-            "precio":20
+            "precio":20,
+            "imagen":"./img/televisor3.png"
         },
         {
             "nombre":"TELEVISOR 4 VALOR 20",
-            "precio":20
+            "precio":20,
+            "imagen":"./img/televisor4.png"
         },
         {
             "nombre":"TELEVISOR 5 VALOR 20",
-            "precio":20
+            "precio":20,
+            "imagen":"./img/televisor5.png"
         },
         {
             "nombre":"TELEVISOR 6 VALOR 20",
-            "precio":20
+            "precio":20,
+            "imagen":"./img/televisor6.png"
         },
         {
             "nombre":"TELEVISOR 7 VALOR 20",
-            "precio":20
+            "precio":20,
+            "imagen":"./img/televisor7.png"
         },
         {
             "nombre":"PERFUME 1 VALOR 15",
-            "precio":15
+            "precio":15,
+            "imagen":"./img/perfume1.png"
         },
         {
             "nombre":"PERFUME 2 VALOR 15",
-            "precio":15
+            "precio":15,
+            "imagen":"./img/perfume2.png"
         },
         {
             "nombre":"PERFUME 3 VALOR 15",
-            "precio":15
+            "precio":15,
+            "imagen":"./img/perfume3.png"
         },
         {
             "nombre":"PERFUME 4 VALOR 15",
-            "precio":15
+            "precio":15,
+            "imagen":"./img/perfume4.png"
         },
         {
             "nombre":"PERFUME 5 VALOR 15",
-            "precio":15
+            "precio":15,
+            "imagen":"./img/perfume5.png"
         },
         {
             "nombre":"PERFUME 6 VALOR 15",
-            "precio":15
+            "precio":15,
+            "imagen":"./img/perfume6.png"
         },
         {
             "nombre":"PERFUME 7 VALOR 15",
-            "precio":15
+            "precio":15,
+            "imagen":"./img/perfume7.png"
         }
     ]
 }

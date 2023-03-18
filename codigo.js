@@ -18,8 +18,9 @@ let entrada1 = document.getElementsByClassName("entrada1");
 let entrada2 = document.getElementsByClassName("entrada2");
 let entrada3 = document.getElementsByClassName("entrada3");
 
-//Para cambio de texo p
+//Para cambio de HTML
 let p_producto = document.getElementsByClassName("p_producto");
+let img_producto = document.getElementsByClassName("img_producto");
 
 let h3_ropa = document.getElementById("totalropa");
 let h3_televisores = document.getElementById("totaltelevisores");
@@ -30,10 +31,11 @@ let total_T
 let total_P
 
 class producto {
-    constructor(cantidad, precio, nombre) {
+    constructor(cantidad, precio, nombre, imagen) {
         this.cantidad = cantidad
         this.precio = precio
         this.nombre = nombre
+        this.icon = imagen
     }
     total() {
         return this.cantidad * this.precio;
@@ -53,13 +55,18 @@ fetch('./data.json')
     .then((response) => response.json())
     .then((json) => {
         for (let i = 0; i < 7; i++) {
-            ropa.push(new producto(0, json.arrayProductos[i].precio, json.arrayProductos[i].nombre));
-            televisores.push(new producto(0, json.arrayProductos[i+7].precio, json.arrayProductos[i+7].nombre));
-            perfumes.push(new producto(0, json.arrayProductos[i+14].precio, json.arrayProductos[i+14].nombre));
+            ropa.push(new producto(0, json.arrayProductos[i].precio, json.arrayProductos[i].nombre, json.arrayProductos[i].imagen));
+            televisores.push(new producto(0, json.arrayProductos[i+7].precio, json.arrayProductos[i+7].nombre, json.arrayProductos[i+7].imagen));
+            perfumes.push(new producto(0, json.arrayProductos[i+14].precio, json.arrayProductos[i+14].nombre, json.arrayProductos[i+14].imagen));
             
             p_producto[i].innerText = json.arrayProductos[i].nombre;
             p_producto[i+7].innerText = json.arrayProductos[i+7].nombre;
             p_producto[i+14].innerText = json.arrayProductos[i+14].nombre;
+
+            img_producto[i].src = json.arrayProductos[i].imagen;
+            img_producto[i+7].src = json.arrayProductos[i+7].imagen;
+            img_producto[i+14].src = json.arrayProductos[i+14].imagen;
+               
         }
     });
     
