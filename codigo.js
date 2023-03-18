@@ -337,7 +337,23 @@ function VerCarrito() {
             </section>`
     }).then((result) => {
         if (result.isConfirmed) {
-        carro.length > 0 ? Swal.fire('Comprado!','Tu compra ha sido exitosa!','success') : Swal.fire('No hay productos en carrito!','Compra no fue efectuada')
+        if (carro.length > 0){
+            Swal.fire('Comprado!','Tu compra ha sido exitosa!','success')
+            for(let i = 0; i < 7; i++){
+                entrada1[i].value = 0;
+                entrada2[i].value = 0;
+                entrada3[i].value = 0;
+                ropa[i].cantidad = 0;
+                televisores[i].cantidad = 0;
+                perfumes[i].cantidad = 0;
+                h3_ropa.innerText = "No ha sumado Ropa"
+                h3_televisores.innerText = "No ha sumado Televisores"
+                h3_perfumes.innerText = "No ha sumado Perfumes"
+            }
+        } 
+        else{
+            Swal.fire('No hay productos en carrito!','Compra no fue efectuada')
+        } 
         }
     });
 

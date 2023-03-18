@@ -70,6 +70,7 @@ main{
 img{
     height: 5em;
     height: 5em;
+    margin-right: 5px;
 }
 
 .seccion_chica{
@@ -125,8 +126,6 @@ img{
 .p_producto{
     margin-left: 10px;
 }
-
-
 
 
 footer{
